@@ -28,7 +28,7 @@ the fly during the build.
 
   3. Build the project
 
-       `npm build`
+       `npm run build`
 
 
 ## Expected Outcome
