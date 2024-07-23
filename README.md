@@ -21,8 +21,8 @@ the fly during the build.
        `cd 3.3.2` or
        `cd 3.4.0` 
 
-  2. Install the missing dependencies. This creates node_modules folder not
-     included in this archive:
+  2. Install the missing dependencies. This creates `node_modules` directory which is not
+     included in this repository:
 
        `npm install`
 
