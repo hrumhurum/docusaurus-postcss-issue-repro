@@ -18,17 +18,17 @@ the fly during the build.
 
   1. Enter the directory of a corresponding sample:
        
-       cd 3.3.2 ~or~
-       cd 3.4.0 
+       `cd 3.3.2` or
+       `cd 3.4.0` 
 
   2. Install the missing dependencies. This creates node_modules folder not
      included in this archive:
 
-       npm install
+       `npm install`
 
   3. Build the project
 
-       npm build
+       `npm build`
 
 
 ## Expected outcome
