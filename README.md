@@ -14,7 +14,7 @@ plugin installs a PostCSS add-on that automatically translates CSS 3 syntax on
 the fly during the build.
 
 
-## Steps to reproduce
+## Steps to Reproduce
 
   1. Enter the directory of a corresponding sample:
        
@@ -31,19 +31,19 @@ the fly during the build.
        `npm build`
 
 
-## Expected outcome
+## Expected Outcome
 
   - Build finishes successfully
 
 
-## Actual outcome (for Docusaurus 3.4.0)
+## Actual Outcome (for Docusaurus 3.4.0)
 
   - [WARNING] {"file":"api/my-api.css","message":"api/my-api.css from Css Minimizer plugin\nUnexpected '}' at api/my-api.css:1:85.","compilerPath":"client"}
   - [WARNING] {"file":"api/my-api.css","message":"api/my-api.css from Css Minimizer plugin\nInvalid character(s) '}' at api/my-api.css:1:85. Ignoring.","compilerPath":"client"}
   - [WARNING] {"file":"api/my-api.css","message":"api/my-api.css from Css Minimizer plugin\nInvalid property name '& .my-api-sub-area{background' at api/my-api.css:1:40. Ignoring.","compilerPath":"client"}
 
 
-## Observations and remarks
+## Observations and Remarks
 
 It seems that Docusaurus 3.4.0 tries to minimize CSS files from 'static' directory,
 while Docusaurus 3.3.2 just kept them intact. While doing that CSS minimization,
