@@ -9,7 +9,7 @@ The samples are provided for two Docusaurus versions:
 
 The notable feature of the provided sample is that it uses CSS 3 syntax.
 In order for this to work in Docusaurus build, the project defines a custom
-Docusarus plugin 'customPostCssPlugin' in file 'docusaurus.config.ts'. The
+Docusarus plugin `customPostCssPlugin` in file `docusaurus.config.ts`. The
 plugin installs a PostCSS add-on that automatically translates CSS 3 syntax on
 the fly during the build.
 
@@ -28,7 +28,7 @@ the fly during the build.
 
   3. Build the project
 
-       `npm build`
+       `npm run build`
 
 
 ## Expected Outcome
@@ -45,7 +45,7 @@ the fly during the build.
 
 ## Observations and Remarks
 
-It seems that Docusaurus 3.4.0 tries to minimize CSS files from 'static' directory,
+It seems that Docusaurus 3.4.0 tries to minimize CSS files from `static` directory,
 while Docusaurus 3.3.2 just kept them intact. While doing that CSS minimization,
 Docusaurus 3.4.0 seems to forget to initialize PostCSS correctly, ignoring custom
 plugins like they do not exist.
